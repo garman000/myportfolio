@@ -147,7 +147,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="resumo_fn_contact_info">
             <p>Address</p>
-            <h3>Manchester, United Kingdom | Tel Aviv, Israel</h3>
+            <h3>Manchester &amp; Tel Aviv</h3>
             <p>Phone</p>
             <h3>
               <a href="tel:+7068980751">(+972) 054-214-3111</a>
