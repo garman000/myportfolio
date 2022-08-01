@@ -7,8 +7,8 @@ const CustomerLight = () => {
         <div className="roww">
           {/* Main Title */}
           <div className="resumo_fn_main_title">
-            <h3 className="subtitle">Customers</h3>
-            <h3 className="title">Happy People</h3>
+            <h3 className="subtitle">Countries Lived</h3>
+            {/* <h3 className="title">Happy People</h3> */}
           </div>
           {/* /Main Title */}
           {/* Partners */}

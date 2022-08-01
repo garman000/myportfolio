@@ -60,7 +60,7 @@ const Nav = ({ close, trigger }) => {
             <div className="social">
               <ul>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="http://www.manutd.com" target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       height="681pt"
@@ -73,7 +73,7 @@ const Nav = ({ close, trigger }) => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="http://www.facebook.com/ste.garman" target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       id="Bold"
@@ -89,7 +89,7 @@ const Nav = ({ close, trigger }) => {
                 </li>
 
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="https://www.instagram.com/steven_garman" target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -110,7 +110,7 @@ const Nav = ({ close, trigger }) => {
                 </li>
 
                 <li>
-                  <a href="www.google.com" target="_blank">
+                  <a href="http://www.google.com" target="_blank">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -194,7 +194,7 @@ const Nav = ({ close, trigger }) => {
                 </li> */}
               </ul>
             </div>
-            <div className="copyright">
+            {/* <div className="copyright">
               {" "}
               Developed by &nbsp;
               <a
@@ -204,7 +204,7 @@ const Nav = ({ close, trigger }) => {
               >
                 TrendyCoder
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
 
