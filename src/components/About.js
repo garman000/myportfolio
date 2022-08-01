@@ -37,16 +37,16 @@ const About = () => {
                     <th>Address</th>
                     <th>Tel Aviv</th>
                   </tr>
-                  <tr>
+                  {/* <tr>
                     <th>Phone</th>
                     <th>
                       <a href="tel:+3846923442364">(+972) 054 214 3111</a>
                     </th>
-                  </tr>
+                  </tr> */}
                   <tr>
                     <th>Email</th>
                     <th>
-                      <a href="mailto:trendycoder.com@gmail.com">
+                      <a href="mailto:garman000@gmail.com">
                         garman000@gmail.com
                       </a>
                     </th>
@@ -57,7 +57,7 @@ const About = () => {
             <div className="about_right">
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
-                <a href="public/pdf/SteCV.pdf" download>
+                <a src="public/pdf/SteCV.pdf" download>
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

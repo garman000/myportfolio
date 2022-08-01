@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Fragment, useEffect } from "react";
-import Cursor from "../src/layouts/Cursor";
-import { customCursor } from "../src/utilits";
+import Cursor from "../../src/layouts/Cursor";
+import { customCursor } from "../../src/utilits";
 
 const Intro = () => {
   useEffect(() => {
