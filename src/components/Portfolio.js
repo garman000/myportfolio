@@ -2,9 +2,14 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { portfolioSliderProps } from "../sliderProps";
 import Modalbox from "./Modalbox";
+import disclosedDark from "../../public/img/portfolio/disclosedDark.jpeg";
+import disclosedLight from "../../public/img/portfolio/disclosedLight.jpeg";
+import Image from 'next/image'
+
 const Portfolio = () => {
   const [modal, setModal] = useState(false);
   const [modalValue, setModalValue] = useState(null);
+ 
   return (
     <section id="portfolio">
       {modal && <Modalbox close={setModal} value={modalValue} />}
@@ -59,7 +64,7 @@ const Portfolio = () => {
                   <div className="abs_img" data-bg-img="img/portfolio/travelWise.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
+                  Travel Sed ornare tellus a odio bibendum, at tristique sapien
                   malesuada. Proin sagittis maximus accumsan. Class aptent
                   taciti sociosqu ad litora torquent per conubia nostra, per
                   inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
@@ -101,7 +106,7 @@ const Portfolio = () => {
                   <div className="abs_img" data-bg-img="img/portfolio/pawPaw.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
+                  Pet ed ornare tellus a odio bibendum, at tristique sapien
                   malesuada. Proin sagittis maximus accumsan. Class aptent
                   taciti sociosqu ad litora torquent per conubia nostra, per
                   inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
@@ -143,53 +148,28 @@ const Portfolio = () => {
               data-index={2}
             >
               <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/faceIT.jpg" />
+                <Image src={disclosedDark} alt="image" />
+                  {/* <Image src={disclosedLight} alt="image" /> */}
+                <div className="abs_img" data-bg-img="img/portfolio/disclosedDark.jpeg" />
               </div>
               <div className="title_holder">
                 <p>Trusted Review Systems</p>
                 <h3>
-                  <a href="#">Disclosed.</a>
+                <a href="http://www.disclosed.com" target="_blank">Disclosed.com</a>
                 </h3>
               </div>
               <div className="fn__hidden">
                 <p className="fn__cat">Trusted Casino Reviews</p>
                 <h3 className="fn__title">Disclosed.</h3>
                 <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/faceIT.jpg" />
+                  <Image src={disclosedDark} alt="image" />
+                  <div className="abs_img" data-bg-img="img/portfolio/disclosedDark.jpeg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
+                  disclosed
                 </p>
                 <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
+                 disclosed
                 </p>
               </div>
             </SwiperSlide>
@@ -219,7 +199,7 @@ const Portfolio = () => {
                   <div className="abs_img" data-bg-img="img/portfolio/faceIT.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
+                  FaceIT Sed ornare tellus a odio bibendum, at tristique sapien
                   malesuada. Proin sagittis maximus accumsan. Class aptent
                   taciti sociosqu ad litora torquent per conubia nostra, per
                   inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
@@ -234,7 +214,7 @@ const Portfolio = () => {
                   convallis in.
                 </p>
                 <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
+                  FaceIT2 Quisque dui metus, eleifend at enim ac, imperdiet sagittis
                   dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
                   pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
                   congue, mauris magna tempus nibh, in mollis eros enim a

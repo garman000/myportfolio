@@ -12,7 +12,7 @@ const About = () => {
             <h3 className="subtitle">About Me</h3>
             <h3 className="title">Biography</h3>
             <p className="desc">
-              {`I'm a Full-Stack Developer, looking to bring my creative ideas to websites for everyone around the world. Originally from Manchester, Ive travelled far and wide, explored cultures and embraced being outside of my comfort zones. I like to work with new people. New people are new experiences.`}
+              {`As a Full-Stack Developer, my goal is to bring creative ideas to life on websites that can be enjoyed by people around the globe. Although I hail from Manchester, my passion for travel has taken me on exciting journeys, enabling me to explore diverse cultures and step out of my comfort zone. Working with new people brings me joy, as it presents fresh opportunities for growth and learning through shared experiences.`}
             </p>
           </div>
           {/* /Main Title */}
@@ -30,12 +30,12 @@ const About = () => {
                     <th>1st October 1989</th>
                   </tr>
                   <tr>
-                    <th>Age</th>
-                    <th>32 years</th>
+                    <th>Hometown</th>
+                    <th>Manchester</th>
                   </tr>
                   <tr>
-                    <th>Address</th>
-                    <th>Tel Aviv</th>
+                    <th>Something Secret</th>
+                    <th>I am a twin.</th>
                   </tr>
                   {/* <tr>
                     <th>Phone</th>
@@ -153,11 +153,7 @@ const About = () => {
                         </div>
                         <h3>Server</h3>
                         <p>
-                          Living in the Cayman Islands, working for a prestigous
-                          hotel brand such as the Kimpton was a pleasure.
-                          Working alongside many people from 100+ countries was
-                          a great opportunity to learn, about the world &amp;
-                          its many diverse cultures &amp; myself.{" "}
+                        Having the opportunity to live in the breathtaking Cayman Islands and work for a prestigious hotel brand like Kimpton was truly a pleasure. Working alongside talented individuals from over 100 countries was an incredible learning experience, allowing me to gain a deeper understanding of the world and its many diverse cultures while also discovering more about myself.{" "}
                         </p>
                       </div>
                     </li>
@@ -169,11 +165,7 @@ const About = () => {
                         </div>
                         <h3>Marketing &amp; Business Development Intern</h3>
                         <p>
-                          Worked for this amazing startup in Bogota, which
-                          promotes living a sustainable &amp; healthy lifestyle
-                          through its great, uniqe &amp; healthy products.
-                          Enjoyed equally the opportunity to learn Spanish.
-                          Mission - accomplished ☑️{" "}
+                        I had the privilege of working for an amazing startup in Bogota that promotes sustainable and healthy living through its unique and healthy products. It was a fulfilling experience to not only contribute to their mission but also to learn Spanish during my time there. Mission accomplished!{" "}
                         </p>
                       </div>
                     </li>
@@ -240,7 +232,7 @@ const About = () => {
                   <div className="progress_item open" data-value={92}>
                     <div className="item_in">
                       <h3 className="progress_title">
-                        HTML &amp; CSS(Including Bootstrap/ChakraUI)
+                        HTML &amp; CSS(Including Bootstrap/ChakraUI/Tailwind)
                       </h3>
                       <span
                         className="progress_percent"
@@ -256,7 +248,7 @@ const About = () => {
                   <div className="progress_item open" data-value={95}>
                     <div className="item_in">
                       <h3 className="progress_title">
-                        Javascript(ES6), ReactJS, NextJs &amp; NodeJS(Express)
+                        Javascript(ES6), ReactJS, NextJS &amp; NodeJS(Express), Django
                       </h3>
                       <span
                         className="progress_percent"
@@ -319,7 +311,7 @@ const About = () => {
                   <div className="progress_item open" data-value={100}>
                     <div className="item_in">
                       <h3 className="progress_title">
-                        Sports ( Tennis, Football, Gym ){" "}
+                        Sports ( Tennis, Football, Gym, JumpRope ){" "}
                       </h3>
                       {/* <span
                         className="progress_percent"
@@ -351,7 +343,7 @@ const About = () => {
                   <div className="progress_item open" data-value={80}>
                     <div className="item_in">
                       <h3 className="progress_title">
-                        Travel ( Visited = 31 countries | Lived = 5 countries ){" "}
+                        Travel ( Visited = 30+ countries | Lived = 6 countries ){" "}
                       </h3>
                       {/* <span
                         className="progress_percent"
