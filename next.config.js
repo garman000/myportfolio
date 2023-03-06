@@ -1,3 +1,5 @@
-module.exports = {
-    distDir: 'out'
-  }
+const nextConfig = {
+    reactStrictMode:true
+}
+
+  module.exports = nextConfig
