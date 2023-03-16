@@ -1,6 +1,32 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { customersSliderProps } from "../sliderProps";
 const CustomerLight = () => {
+  const data = [
+    {
+      country: "Colombia",
+      image: "1.png",
+    },
+    {
+      country: "England",
+      image: "2.png",
+    },
+    {
+      country: "Israel",
+      image: "5.png",
+    },
+    {
+      country: "Cayman Islands",
+      image: "4.png",
+    },
+    {
+      country: "Australia",
+      image: "3.png",
+    },
+    {
+      country: "America",
+      image: "6.png",
+    },
+  ];
   return (
     <section id="customers">
       <div className="container">
@@ -12,60 +38,28 @@ const CustomerLight = () => {
           </div>
           {/* /Main Title */}
           {/* Partners */}
-          <div className="resumo_fn_partners">
-            <ul>
-              <li>
-                <a href="https://envato.com/" rel="noreferrer" target="_blank">
-                  <img src="img/partners/dark/1.png" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="https://frenify.com/"  rel="noreferrer" target="_blank">
-                  <img src="img/partners/dark/2.png" alt="" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://themeforest.net/item/rewall-personal-portfolio-template/34316546"
-                  rel="noreferrer"
-                  target="_blank"
-
-                >
-                  <img src="img/partners/dark/3.png" alt="" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://themeforest.net/item/artemiz-blog-podcast-wordpress-theme/28455063"
-                  rel="noreferrer"
-                  target="_blank"
-
-                >
-                  <img src="img/partners/dark/4.png" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="https://themeforest.net/item/wetland-multi-purpose-react-next-js-template-for-startup/33851796" rel="noreferrer" target="_blank">
-                  <img src="img/partners/dark/5.png" alt="" />
-                </a>
-              </li>
-              <li>
-                <a href="https://themeforest.net/item/edunet-react-personal-tutor-lms-dashboard-ui-kit/31635576" rel="noreferrer" target="_blank">
-                  <img src="img/partners/dark/6.png" alt="" />
-                </a>
-              </li>
-              {/* <li>
-                <a href="https://themeforest.net/item/appz-mobile-app-landing-react-nextjs-template/34385390" rel="noreferrer" target="_blank">
-                  <img src="img/partners/dark/7.png" alt="" />
-                </a>
-              </li> */}
-              {/* <li>
-                <a href="https://themeforest.net/item/rewall-pesonal-portfolio-react-nextjs-template/34826425" rel="noreferrer" target="_blank">
-                  <img src="img/partners/dark/3.png" alt="" />
-                </a>
-              </li> */}
-            </ul>
-          </div>
+              <div className="resumo_fn_partners">
+                <ul>
+          {data.map((data, index) => {
+            return (
+                  <li>
+                    
+                    <a
+                      // href="https://envato.com/"
+                      rel="noreferrer"
+                      // target="_blank"
+                    >
+                      <div style={{display: "flex", flexDirection: "column", gap: "1rem"}}>
+                      <img src={`img/partners/${data.image}`} alt="" />
+                      <div>{data.country}</div>
+                      </div>
+                    </a>
+                  </li>
+               
+                  );
+                })}
+                </ul>
+              </div>
           {/* /Partners */}
           {/* Testimonials */}
           <div className="resumo_fn_testimonials">
@@ -78,7 +72,7 @@ const CustomerLight = () => {
               </a>
             </div>
             <Swiper {...customersSliderProps} className="owl-carousel">
-              <SwiperSlide className="item" key={1} >
+              <SwiperSlide className="item" key={1}>
                 <div className="title_holder">
                   <p className="desc">
                     “ They really nailed it. This is one of the best themes I

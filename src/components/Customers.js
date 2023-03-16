@@ -1,6 +1,32 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { customersSliderProps } from "../sliderProps";
-const Customers = () => {
+const CustomerLight = () => {
+  const data = [
+    {
+      country: "Colombia",
+      image: "1.png",
+    },
+    {
+      country: "England",
+      image: "2.png",
+    },
+    {
+      country: "Israel",
+      image: "5.png",
+    },
+    {
+      country: "Cayman Islands",
+      image: "4.png",
+    },
+    {
+      country: "Australia",
+      image: "3.png",
+    },
+    {
+      country: "America",
+      image: "6.png",
+    },
+  ];
   return (
     <section id="customers">
       <div className="container">
@@ -12,48 +38,28 @@ const Customers = () => {
           </div>
           {/* /Main Title */}
           {/* Partners */}
-          <div className="resumo_fn_partners">
-            <ul>
-              <li>
-                <a href="https://envato.com/"  rel="noreferrer" target="_blank">
-                  <img src="img/partners/1.png" height="110" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a href="https://frenify.com/"  rel="noreferrer" target="_blank">
-                  <img src="img/partners/2.png" height="110" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://themeforest.net/item/rewall-pesonal-portfolio-react-nextjs-template/34826425"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="img/partners/3.png" height="110" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://themeforest.net/item/artemiz-blog-podcast-wordpress-theme/28455063"
-                  target="_blank"
-                  rel="noreferrer"                 
-                >
-                  <img src="img/partners/4.png" height="110" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a href="https://themeforest.net/item/wetland-multi-purpose-react-next-js-template-for-startup/33851796"   rel="noreferrer" target="_blank">
-                  <img src="img/partners/5.png" height="110" alt="image" />
-                </a>
-              </li>
-              <li>
-                <a href="https://themeforest.net/item/edunet-react-personal-tutor-lms-dashboard-ui-kit/31635576"  rel="noreferrer" target="_blank">
-                  <img src="img/partners/6.png" height="110" width="150" alt="image" />
-                </a>
-              </li>
-              </ul>
-          </div>
+              <div className="resumo_fn_partners">
+                <ul>
+          {data.map((data, index) => {
+            return (
+                  <li>
+                    
+                    <a
+                      href="https://envato.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <div style={{display: "flex", flexDirection: "column", gap: "1rem"}}>
+                      <img src={`img/partners/${data.image}`} alt="" />
+                      <div>{data.country}</div>
+                      </div>
+                    </a>
+                  </li>
+               
+                  );
+                })}
+                </ul>
+              </div>
           {/* /Partners */}
           {/* Testimonials */}
           <div className="resumo_fn_testimonials">
@@ -66,7 +72,7 @@ const Customers = () => {
               </a>
             </div>
             <Swiper {...customersSliderProps} className="owl-carousel">
-              <SwiperSlide className="item" key='1'>
+              <SwiperSlide className="item" key={1}>
                 <div className="title_holder">
                   <p className="desc">
                     “ They really nailed it. This is one of the best themes I
@@ -78,7 +84,7 @@ const Customers = () => {
                   <h3 className="subtitle">Freelancer &amp; Designer</h3>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="item" key='2'>
+              <SwiperSlide className="item" key={2}>
                 <div className="title_holder">
                   <p className="desc">
                     {`“ This was exactly what I needed for my portfolio,
@@ -91,7 +97,7 @@ const Customers = () => {
                   <h3 className="subtitle">Photographer</h3>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="item" key='3'>
+              <SwiperSlide className="item" key={3}>
                 <div className="title_holder">
                   <p className="desc">
                     “ Had a problem with the layout after Installation- found no
@@ -112,4 +118,4 @@ const Customers = () => {
   );
 };
 
-export default Customers;
+export default CustomerLight;

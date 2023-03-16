@@ -35,7 +35,7 @@ const About = () => {
                   </tr>
                   <tr>
                     <th>Something Secret</th>
-                    <th>I am a twin.</th>
+                    <th>Manchester United {">"} All Other Clubs</th>
                   </tr>
                   {/* <tr>
                     <th>Phone</th>
@@ -132,10 +132,31 @@ const About = () => {
                     <li>
                       <div className="item">
                         <div className="item_top">
+                          <a target="_blank" href="https://disclosed.com">
+                          <h5>Disclosed.com</h5>
+                          </a>
+                          <span>( 2022 - 2023 )</span>
+                        </div>
+                        <h3>Lead Developer</h3>
+                        <p>
+                          As the Lead Front End Developer at Disclosed.com I played a key
+                          role in market research and wireframe development for
+                          a new startup. I also managed a designer and another
+                          front-end developer, ensuring all deliverables met
+                          high-quality standards. Collaborating with the
+                          back-end developer, I helped to ensure a seamless and
+                          integrated product. During my tenure, I gained
+                          valuable skills and knowledge in NextJS and Django.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
                           <h5>ITC Tech Challenge - Israel</h5>
                           <span>( 2021 — 2022 )</span>
                         </div>
-                        <h3>Full-Stack Developer training</h3>
+                        <h3>Full-Stack Developer Training</h3>
                         <p>
                           Training programme, designed to teach many of the
                           desired skills &amp; attributes necessary to succeed
@@ -153,7 +174,13 @@ const About = () => {
                         </div>
                         <h3>Server</h3>
                         <p>
-                        Having the opportunity to live in the breathtaking Cayman Islands and work for a prestigious hotel brand like Kimpton was truly a pleasure. Working alongside talented individuals from over 100 countries was an incredible learning experience, allowing me to gain a deeper understanding of the world and its many diverse cultures while also discovering more about myself.{" "}
+                          Having the opportunity to live in the breathtaking
+                          Cayman Islands and work for a prestigious hotel brand
+                          like Kimpton was truly a pleasure. Working alongside
+                          talented individuals from over 100 countries was an
+                          incredible learning experience, allowing me to gain a
+                          deeper understanding of the world and its many diverse
+                          cultures while also discovering more about myself.{" "}
                         </p>
                       </div>
                     </li>
@@ -165,7 +192,12 @@ const About = () => {
                         </div>
                         <h3>Marketing &amp; Business Development Intern</h3>
                         <p>
-                        I had the privilege of working for an amazing startup in Bogota that promotes sustainable and healthy living through its unique and healthy products. It was a fulfilling experience to not only contribute to their mission but also to learn Spanish during my time there. Mission accomplished!{" "}
+                          I had the privilege of working for an amazing startup
+                          in Bogota that promotes sustainable and healthy living
+                          through its unique and healthy products. It was a
+                          fulfilling experience to not only contribute to their
+                          mission but also to learn Spanish during my time
+                          there. Mission accomplished!{" "}
                         </p>
                       </div>
                     </li>
@@ -202,7 +234,10 @@ const About = () => {
                         </div>
                         <h3>Marketing and Advertising Management</h3>
                         <p>
-                          A course teaching students the principles of marketing and advertising in an extremely well structured environment. Self study and motivation were skills aquired.{" "}
+                          A course teaching students the principles of marketing
+                          and advertising in an extremely well structured
+                          environment. Self study and motivation were skills
+                          aquired.{" "}
                         </p>
                       </div>
                     </li>
@@ -248,7 +283,8 @@ const About = () => {
                   <div className="progress_item open" data-value={95}>
                     <div className="item_in">
                       <h3 className="progress_title">
-                        Javascript(ES6), ReactJS, NextJS &amp; NodeJS(Express), Django
+                        Javascript(ES6), ReactJS, NextJS &amp; NodeJS(Express),
+                        Django
                       </h3>
                       <span
                         className="progress_percent"
@@ -320,7 +356,10 @@ const About = () => {
                         92%
                       </span> */}
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "100%" }} />
+                        <div
+                          className="progress_bg"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -336,7 +375,10 @@ const About = () => {
                         95%
                       </span> */}
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "100%" }} />
+                        <div
+                          className="progress_bg"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -352,7 +394,10 @@ const About = () => {
                         80%
                       </span> */}
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "100%" }} />
+                        <div
+                          className="progress_bg"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -368,7 +413,10 @@ const About = () => {
                         85%
                       </span> */}
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "100%" }} />
+                        <div
+                          className="progress_bg"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                     </div>
                   </div>
