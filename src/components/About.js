@@ -52,7 +52,8 @@ const About = () => {
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
                 <a
-                  href="/pdf/steCV.pdf"
+                  href="https://myportfolio-eosin.vercel.app/pdf/steCV.pdf"
+                  // href="pdf/steCV.pdf"
                   download="steCV.pdf"
                   style={{ cursor: "pointer" }}
                 >
@@ -140,7 +141,7 @@ const About = () => {
                           As the Lead Front End Developer at{" "}
                           <a href="http://disclosed.com" target="_blank">
                             Disclosed.com
-                          </a>, @I played a vital role in the development of a new
+                          </a>, I played a vital role in the development of a new
                           startup. In addition to leading market research and
                           wireframe development, I also managed a designer and
                           another front-end developer, ensuring that all
