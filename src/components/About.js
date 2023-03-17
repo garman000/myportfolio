@@ -57,7 +57,7 @@ const About = () => {
             <div className="about_right">
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn" >
-              <a href="/pdf/steCV.pdf" download style={{cursor: "pointer"}}>
+              <a href="/pdf/steCV.pdf" download="steCV.pdf" style={{cursor: "pointer"}}>
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
