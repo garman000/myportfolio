@@ -37,12 +37,6 @@ const About = () => {
                     <th>Something Secret</th>
                     <th>Manchester United {">"} All Other Clubs</th>
                   </tr>
-                  {/* <tr>
-                    <th>Phone</th>
-                    <th>
-                      <a href="tel:+3846923442364">(+972) 054 214 3111</a>
-                    </th>
-                  </tr> */}
                   <tr>
                     <th>Email</th>
                     <th>
@@ -56,8 +50,12 @@ const About = () => {
             </div>
             <div className="about_right">
               {/* Download CV Button */}
-              <div className="resumo_fn_cv_btn" >
-              <a href="/pdf/steCV.pdf" download="steCV.pdf" style={{cursor: "pointer"}}>
+              <div className="resumo_fn_cv_btn">
+                <a
+                  href="/pdf/steCV.pdf"
+                  download="steCV.pdf"
+                  style={{ cursor: "pointer" }}
+                >
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
