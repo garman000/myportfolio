@@ -52,7 +52,7 @@ const About = () => {
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
                 <a
-                  href="/pdf/steCV.pdf"
+                  href="/ste.pdf"
                   download
                   //download="steCV.pdf"
                   style={{ cursor: "pointer" }}
