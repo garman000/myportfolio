@@ -52,9 +52,9 @@ const About = () => {
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
                 <a
-                  href="https://myportfolio-eosin.vercel.app/pdf/steCV.pdf"
-                  // href="pdf/steCV.pdf"
-                  download="steCV.pdf"
+                  href="/pdf/steCV.pdf"
+                  download
+                  //download="steCV.pdf"
                   style={{ cursor: "pointer" }}
                 >
                   <span className="icon">
