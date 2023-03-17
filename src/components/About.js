@@ -133,20 +133,25 @@ const About = () => {
                       <div className="item">
                         <div className="item_top">
                           <a target="_blank" href="https://disclosed.com">
-                          <h5>Disclosed.com</h5>
+                            <h5>Disclosed.com</h5>
                           </a>
                           <span>( 2022 - 2023 )</span>
                         </div>
-                        <h3>Lead Developer</h3>
+                        <h3>Lead Front-End Developer</h3>
                         <p>
-                          As the Lead Front End Developer at Disclosed.com I played a key
-                          role in market research and wireframe development for
-                          a new startup. I also managed a designer and another
-                          front-end developer, ensuring all deliverables met
-                          high-quality standards. Collaborating with the
-                          back-end developer, I helped to ensure a seamless and
-                          integrated product. During my tenure, I gained
-                          valuable skills and knowledge in NextJS and Django.
+                          As the Lead Front End Developer at{" "}
+                          <a href="http://disclosed.com" target="_blank">
+                            Disclosed.com
+                          </a>
+                          , I played a vital role in the development of a new
+                          startup. In addition to leading market research and
+                          wireframe development, I also managed a designer and
+                          another front-end developer, ensuring that all
+                          deliverables were of the highest quality. I
+                          collaborated closely with the back-end developer to
+                          ensure a seamless and integrated product. During my
+                          time at Disclosed.com, I gained valuable skills and
+                          knowledge in NextJS, Django &amp; Tailwind.
                         </p>
                       </div>
                     </li>
@@ -162,7 +167,10 @@ const About = () => {
                           desired skills &amp; attributes necessary to succeed
                           in the hi-tech world. Autonomous learning alongside a
                           structure to produce well rounded full-stack
-                          developers.{" "}
+                          developers.
+                          <br></br>
+                          <strong>Tech Stack:</strong> Javascript, ReactJS,
+                          NodeJS, NextJS, Bootstrap, Firebase, MongoDB, MySQL
                         </p>
                       </div>
                     </li>
