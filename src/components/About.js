@@ -51,12 +51,7 @@ const About = () => {
             <div className="about_right">
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
-                <a
-                  href="/ste.pdf"
-                  download
-                  //download="steCV.pdf"
-                  style={{ cursor: "pointer" }}
-                >
+                <a href="/StevenGarmanResume.pdf" download style={{ cursor: "pointer" }}>
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +136,8 @@ const About = () => {
                           As the Lead Front End Developer at{" "}
                           <a href="http://disclosed.com" target="_blank">
                             Disclosed.com
-                          </a>, I played a vital role in the development of a new
+                          </a>
+                          , I played a vital role in the development of a new
                           startup. In addition to leading market research and
                           wireframe development, I also managed a designer and
                           another front-end developer, ensuring that all
