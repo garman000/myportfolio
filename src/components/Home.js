@@ -16,7 +16,7 @@ const Home = () => {
               innovate in this field. I am excited to see where my skills will
               take me and the positive impact I can make in the world of tech.
             </p>
-            <img src="img/signature.png" alt="image" />
+            <img src="img/mySignature.png" alt="image" />
           </div>
           {/* /Main Title */}
         </div>

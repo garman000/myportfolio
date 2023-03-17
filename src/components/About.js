@@ -99,7 +99,7 @@ const About = () => {
               <ul>
                 <li className={activeList("tab1")}>
                   <a href="#" onClick={() => setToggleList("tab1")}>
-                    Work Experience
+                    Experiences
                   </a>
                 </li>
                 <li className={activeList("tab2")}>
@@ -140,8 +140,7 @@ const About = () => {
                           As the Lead Front End Developer at{" "}
                           <a href="http://disclosed.com" target="_blank">
                             Disclosed.com
-                          </a>
-                          , I played a vital role in the development of a new
+                          </a>, @I played a vital role in the development of a new
                           startup. In addition to leading market research and
                           wireframe development, I also managed a designer and
                           another front-end developer, ensuring that all
@@ -159,7 +158,7 @@ const About = () => {
                           <h5>ITC Tech Challenge - Israel</h5>
                           <span>( 2021 — 2022 )</span>
                         </div>
-                        <h3>Full-Stack Developer Training</h3>
+                        <h3>Full-Stack Developer Bootcamp</h3>
                         <p>
                           Training programme, designed to teach many of the
                           desired skills &amp; attributes necessary to succeed
@@ -275,14 +274,17 @@ const About = () => {
                       <h3 className="progress_title">
                         HTML &amp; CSS(Including Bootstrap/ChakraUI/Tailwind)
                       </h3>
-                      <span
+                      {/* <span
                         className="progress_percent"
                         style={{ right: "8%" }}
                       >
                         92%
-                      </span>
+                      </span> */}
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "92%" }} />
+                        <div
+                          className="progress_bg"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -292,44 +294,53 @@ const About = () => {
                         Javascript(ES6), ReactJS, NextJS &amp; NodeJS(Express),
                         Django
                       </h3>
-                      <span
+                      {/* <span
                         className="progress_percent"
                         style={{ right: "5%" }}
                       >
                         95%
-                      </span>
+                      </span> */}
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "95%" }} />
+                        <div
+                          className="progress_bg"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                     </div>
                   </div>
                   <div className="progress_item open" data-value={80}>
                     <div className="item_in">
                       <h3 className="progress_title">SQL &amp; MongoDB </h3>
-                      <span
+                      {/* <span
                         className="progress_percent"
                         style={{ right: "20%" }}
                       >
                         80%
-                      </span>
+                      </span> */}
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "80%" }} />
+                        <div
+                          className="progress_bg"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={85}>
+                  <div className="progress_item open" data-value={100}>
                     <div className="item_in">
                       <h3 className="progress_title">
                         Rest APIs, Git, Vercel &amp; Firebase
                       </h3>
-                      <span
+                      {/* <span
                         className="progress_percent"
                         style={{ right: "15%" }}
                       >
                         85%
-                      </span>
+                      </span> */}
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "85%" }} />
+                        <div
+                          className="progress_bg"
+                          style={{ width: "100%" }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -339,11 +350,14 @@ const About = () => {
                 {/* Description */}
                 <div className="resumo_fn_desc">
                   <p>
-                    A freelance creative designer with a love for minimal
-                    design, clean typography and well-written code, located in
-                    San Francisco. Provide high quality and cost effective
-                    offshore web and software development services. Wide range
-                    of web and software development services across the world.
+                    As a full-stack developer with a keen interest in front-end
+                    development, I may not have a formal background in design,
+                    but I am passionate about creating visually appealing and
+                    user-friendly web pages. I take great pleasure in exploring
+                    my creativity and bringing innovative ideas to life through
+                    my work. UI/UX design is an area of particular interest to
+                    me, and I value its importance in creating a seamless user
+                    experience.
                   </p>
                 </div>
               </div>
