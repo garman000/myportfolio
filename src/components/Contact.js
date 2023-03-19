@@ -146,17 +146,22 @@ const Contact = () => {
           {/* /Contact Form */}
           {/* Contact Info */}
           <div className="resumo_fn_contact_info">
-            <p>Home:</p>
-            <h3>Manchester &amp;</h3>
-            <p>Phone</p>
+            <p>Home</p>
+            <h3>Manchester</h3>
+            <p>Current Location</p>
+            <h3>Europe</h3>
+            <p>Email </p>
             <h3>
-              <a href="tel:+7068980751">(+972) 054-214-3111</a>
-            </h3>
-            <p>
               <a className="fn__link" href="mailto:garman000@gmail.com">
                 garman000@gmail.com
               </a>
-            </p>
+            </h3>
+            <p>Lets Work Together</p>
+            <h3>
+              I'm always looking for new opportunities to collaborate with
+              others on exciting projects. If you're interested in working
+              together, please don't hesitate to get in touch.
+            </h3>
           </div>
           {/* /Contact Info */}
         </div>

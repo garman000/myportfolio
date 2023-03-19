@@ -34,8 +34,8 @@ const About = () => {
                     <th>Manchester</th>
                   </tr>
                   <tr>
-                    <th>Something Secret</th>
-                    <th>Manchester United {">"} All Other Clubs</th>
+                    <th>Favourite Team</th>
+                    <th>Manchester United</th>
                   </tr>
                   <tr>
                     <th>Email</th>
@@ -51,7 +51,11 @@ const About = () => {
             <div className="about_right">
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
-                <a href="/StevenGarmanResume.pdf" download style={{ cursor: "pointer" }}>
+                <a
+                  href="/StevenGarmanResume.pdf"
+                  download
+                  style={{ cursor: "pointer" }}
+                >
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -221,10 +225,14 @@ const About = () => {
                         </div>
                         <h3>Full-Stack Development</h3>
                         <p>
-                          A training program designed to qualify Full-Stack web
+                          A training program designed to qualify Full-Stack
                           developers. The program is a full-time, hands-on
                           accelerator, which practices research and autonomous
                           learning while emulating a real-life work environment.{" "}
+                          <br></br>
+                          <strong>Tech Stack:</strong> Javascript (ES6),
+                          ReactJS, NodeJS, NextJS, MongoDB, MySql, Bootstrap,
+                          TailwindCSS, Firebase, Vercel
                         </p>
                       </div>
                     </li>
