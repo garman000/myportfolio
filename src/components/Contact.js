@@ -1,21 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import emailjs from 'emailjs-com';
+
 const Contact = () => {
-  const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
+  const [form, setForm] = useState({ email: "", name: "", title: "", msg: "" });
   const [active, setActive] = useState(null);
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
   const onChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
-  const { email, name, phone, msg } = form;
+  const { email, name, title, msg } = form;
   const onSubmit = (e) => {
     e.preventDefault();
-    if (email && name && phone && msg) {
+    if (email && name && title && msg) {
       setSuccess(true);
       setTimeout(() => {
-        setForm({ email: "", name: "", phone: "", msg: "" });
+        setForm({ email: "", name: "", title: "", msg: "" });
         setSuccess(false);
       }, 2000);
+      emailjs.sendForm('service_10nx6tb', 'template_mbj6dk6', e.target, 'mhYYFQEGtzOYj3Oyw')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
     } else {
       setError(true);
       setTimeout(() => {
@@ -23,6 +31,9 @@ const Contact = () => {
       }, 2000);
     }
   };
+  useEffect(() => {
+    console.log('form data sent', form)
+  }, [])
   return (
     <section id="contact">
       <div className="container">
@@ -42,11 +53,11 @@ const Contact = () => {
           <form className="contact_form" onSubmit={(e) => onSubmit(e)}>
             <div
               className="success"
-              data-success="Your message has been received, we will contact you soon."
+              data-success="Your message has been received, I will be in touch soon."
               style={{ display: success ? "block" : "none" }}
             >
               <span className="contact_success">
-                Your message has been received, we will contact you soon.
+                Your message has been received, I will be in touch soon.
               </span>
             </div>
             <div
@@ -97,19 +108,19 @@ const Contact = () => {
                 <div className="item">
                   <div
                     className={`input_wrapper ${
-                      active === "phone" || phone ? "active" : ""
+                      active === "title" || title ? "active" : ""
                     }`}
                   >
                     <input
-                      onFocus={() => setActive("phone")}
+                      onFocus={() => setActive("title")}
                       onBlur={() => setActive(null)}
-                      id="phone"
+                      id="title"
                       onChange={(e) => onChange(e)}
-                      value={phone}
-                      name="phone"
+                      value={title}
+                      name="title"
                       type="text"
                     />
-                    <span className="moving_placeholder">Phone</span>
+                    <span className="moving_placeholder">Title</span>
                   </div>
                 </div>
                 <div className="item">
