@@ -16,17 +16,20 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="icon" href="img/favicon.ico" />
         <meta name="description" content="personal portfolio react template" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        ></meta>
       </Head>
       <Script id="google-analytics" strategy="afterInteractive">
-  {`
+        {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){window.dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', '${GA_MEASUREMENT_ID}');
   `}
-</Script>
-        {/* <script
+      </Script>
+      {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-CEVLTMQCXW"
         ></script>
