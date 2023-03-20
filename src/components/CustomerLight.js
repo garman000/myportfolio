@@ -79,13 +79,13 @@ const CustomerLight = () => {
                 return (
                   <a>
                     <div
-                      style={{
-                        width: "200px",
-                        display: "grid",
-                        gridTemplateColumns: "auto auto auto auto",
-                        gridGap: "10px",
-                        padding: "10px",
-                      }}
+                      // style={{
+                      //   width: "200px",
+                      //   display: "grid",
+                      //   gridTemplateColumns: "auto auto auto auto",
+                      //   gridGap: "10px",
+                      //   padding: "10px",
+                      // }}
                     >
                       <div key={index}>
                         <Image src={data.importLogo} />
@@ -96,6 +96,7 @@ const CustomerLight = () => {
               })}
             </div>
             <div className="resumo_fn_main_title">
+              <br></br>
               <h3 className="subtitle">Tech Stack</h3>
               {/* <h3 className="title">Happy People</h3> */}
 

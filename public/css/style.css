@@ -3141,10 +3141,10 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb {
 .mediaQuery {
   /* border: 5px solid yellowgreen; */
   /* overflow: hidden; */
-  width: 200px;
+  /* width: 200px; */
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
+  grid-gap: 3rem;
   padding: 10px;
 }
 
