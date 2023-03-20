@@ -78,15 +78,7 @@ const CustomerLight = () => {
               {data.map((data, index) => {
                 return (
                   <a>
-                    <div
-                      // style={{
-                      //   width: "200px",
-                      //   display: "grid",
-                      //   gridTemplateColumns: "auto auto auto auto",
-                      //   gridGap: "10px",
-                      //   padding: "10px",
-                      // }}
-                    >
+                    <div>
                       <div key={index}>
                         <Image src={data.importLogo} />
                       </div>

@@ -1,8 +1,10 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import "../styles/globals.css";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
+  const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
   return (
     <Fragment>
       <Head>
@@ -16,6 +18,23 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="personal portfolio react template" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
       </Head>
+      <Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${GA_MEASUREMENT_ID}');
+  `}
+</Script>
+        {/* <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CEVLTMQCXW"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-CEVLTMQCXW');
+        </script> */}
       <Component {...pageProps} />
     </Fragment>
   );
