@@ -1,33 +1,56 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { customersSliderProps } from "../sliderProps";
 import Image from "next/image";
-
+import JavaScript from "../../public/img/techstack/javascript.png";
+import React from "../../public/img/techstack/react-logo.png";
+import NextJS from "../../public/img/techstack/nextJS.png";
+import NodeJS from "../../public/img/techstack/nodeJS.png";
+import MongoDB from "../../public/img/techstack/mongoDB.png";
+import html from "../../public/img/techstack/html.png";
+import tailwind from "../../public/img/techstack/tailwind.png";
+import github from "../../public/img/techstack/github.png";
 
 const CustomerLight = () => {
   const data = [
     {
-      country: "JavaScript",
+      stack: "JavaScript",
       image: "javascript.png",
+      importLogo: JavaScript,
     },
     {
-      country: "reactJS",
+      stack: "reactJS",
       image: "react-logo.png",
+      importLogo: React,
     },
     {
-      country: "nextJS",
+      stack: "nextJS",
       image: "nextJS.png",
+      importLogo: NextJS,
     },
     {
-      country: "nodeJS",
+      stack: "nodeJS",
       image: "nodeJS.png",
+      importLogo: NodeJS,
     },
     {
-      country: "mongoDB",
+      stack: "mongoDB",
       image: "mongoDB.png",
+      importLogo: MongoDB,
     },
     {
-      country: "html",
+      stack: "html",
       image: "html.png",
+      importLogo: html,
+    },
+    {
+      stack: "tailwind",
+      image: "tailwind.png",
+      importLogo: tailwind,
+    },
+    {
+      stack: "github",
+      image: "github.png",
+      importLogo: github,
     },
   ];
   return (
@@ -38,34 +61,57 @@ const CustomerLight = () => {
           <div className="resumo_fn_main_title">
             <h3 className="subtitle">Tech Stack</h3>
             {/* <h3 className="title">Happy People</h3> */}
+            <p className="desc">
+              As a developer, I am currently familiar with a range of
+              technologies and tools such as HTML, CSS, JavaScript, and React.
+              However, my true passion lies in constantly growing and evolving
+              as a developer. I am not afraid to step out of my comfort zone and
+              learn new programming languages or frameworks to enhance my skills
+              and stay up-to-date with the latest industry trends.
+            </p>
           </div>
           {/* /Main Title */}
           {/* Partners */}
-              <div className="resumo_fn_partners">
-                <ul>
-          {data.map((data, index) => {
-            return (
-                  <li>
-                    
-                    <a
-                      // href="https://envato.com/"
-                      rel="noreferrer"
-                      // target="_blank"
+          <div className="resumo_fn_partners">
+            {/* <ul> */}
+            <div className="mediaQuery">
+              {data.map((data, index) => {
+                return (
+                  <a>
+                    <div
+                      style={{
+                        width: "200px",
+                        display: "grid",
+                        gridTemplateColumns: "auto auto auto auto",
+                        gridGap: "10px",
+                        padding: "10px",
+                      }}
                     >
-                      <div style={{display: "flex", flexDirection: "column", gap: "1rem"}}>
-                      <Image src={`/img/techstack/${data.image}`} alt="" width="100%" height="100%"/>
-                      {/* <div>{data.country}</div> */}
+                      <div key={index}>
+                        <Image src={data.importLogo} />
                       </div>
-                    </a>
-                  </li>
-               
-                  );
-                })}
-                </ul>
-              </div>
+                    </div>
+                  </a>
+                );
+              })}
+            </div>
+            <div className="resumo_fn_main_title">
+              <h3 className="subtitle">Tech Stack</h3>
+              {/* <h3 className="title">Happy People</h3> */}
+
+              <p className="desc">
+                I believe that learning is a lifelong process, and I am
+                committed to expanding my knowledge and pushing myself to new
+                heights. As such, I am excited about the prospect of taking on
+                new challenges and learning new technologies that will help me
+                to become a better developer.
+              </p>
+            </div>
+            {/* </ul> */}
+          </div>
           {/* /Partners */}
           {/* Testimonials */}
-          <div className="resumo_fn_testimonials">
+          {/* <div className="resumo_fn_testimonials">
             <div className="my__nav">
               <a href="#" className="prev">
                 <span />
@@ -73,8 +119,8 @@ const CustomerLight = () => {
               <a href="#" className="next">
                 <span />
               </a>
-            </div>
-            <Swiper {...customersSliderProps} className="owl-carousel">
+            </div> */}
+          {/* <Swiper {...customersSliderProps} className="owl-carousel">
               <SwiperSlide className="item" key={1}>
                 <div className="title_holder">
                   <p className="desc">
@@ -112,8 +158,8 @@ const CustomerLight = () => {
                   <h3 className="subtitle">Customer</h3>
                 </div>
               </SwiperSlide>
-            </Swiper>
-          </div>
+            </Swiper> */}
+          {/* </div> */}
           {/* /Testimonials */}
         </div>
       </div>
