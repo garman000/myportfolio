@@ -1,30 +1,33 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { customersSliderProps } from "../sliderProps";
+import Image from "next/image";
+
+
 const CustomerLight = () => {
   const data = [
     {
-      country: "Colombia",
-      image: "1.png",
+      country: "JavaScript",
+      image: "javascript.png",
     },
     {
-      country: "England",
-      image: "2.png",
+      country: "reactJS",
+      image: "react-logo.png",
     },
     {
-      country: "Israel",
-      image: "5.png",
+      country: "nextJS",
+      image: "nextJS.png",
     },
     {
-      country: "Cayman Islands",
-      image: "4.png",
+      country: "nodeJS",
+      image: "nodeJS.png",
     },
     {
-      country: "Australia",
-      image: "3.png",
+      country: "mongoDB",
+      image: "mongoDB.png",
     },
     {
-      country: "America",
-      image: "6.png",
+      country: "html",
+      image: "html.png",
     },
   ];
   return (
@@ -33,7 +36,7 @@ const CustomerLight = () => {
         <div className="roww">
           {/* Main Title */}
           <div className="resumo_fn_main_title">
-            <h3 className="subtitle">Countries Lived</h3>
+            <h3 className="subtitle">Tech Stack</h3>
             {/* <h3 className="title">Happy People</h3> */}
           </div>
           {/* /Main Title */}
@@ -50,8 +53,8 @@ const CustomerLight = () => {
                       // target="_blank"
                     >
                       <div style={{display: "flex", flexDirection: "column", gap: "1rem"}}>
-                      <img src={`img/partners/${data.image}`} alt="" />
-                      <div>{data.country}</div>
+                      <Image src={`/img/techstack/${data.image}`} alt="" width="100%" height="100%"/>
+                      {/* <div>{data.country}</div> */}
                       </div>
                     </a>
                   </li>
