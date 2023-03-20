@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import Image from "next/image";
 import LinkedIn from "../../public/svg/social/linkedin.svg";
+import github from "../../public/svg/social/github.svg";
 
 const Nav = ({ close, trigger }) => {
   const [toggle_, setToggle_] = useState("");
@@ -84,6 +85,19 @@ const Nav = ({ close, trigger }) => {
                     <Image
                       src={LinkedIn}
                       alt="linkedin"
+                      width={20}
+                      height={20}
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/garman000"
+                    target="_blank"
+                  >
+                    <Image
+                      src={github}
+                      alt="github"
                       width={20}
                       height={20}
                     />
