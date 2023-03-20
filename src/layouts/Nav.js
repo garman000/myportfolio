@@ -1,4 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
+import Image from "next/image";
+import LinkedIn from "../../public/svg/social/linkedin.svg";
 
 const Nav = ({ close, trigger }) => {
   const [toggle_, setToggle_] = useState("");
@@ -87,9 +89,21 @@ const Nav = ({ close, trigger }) => {
                     </svg>
                   </a>
                 </li>
-
                 <li>
-                  <a href="https://www.instagram.com/steven_garman" target="_blank">
+                  <a href="https://www.linkedin.com/in/stevengarman1/" target="_blank">
+                    <Image
+                      src={LinkedIn}
+                      alt="linkedin"
+                      width={20}
+                      height={20}
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/steven_garman"
+                    target="_blank"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       xmlnsXlink="http://www.w3.org/1999/xlink"

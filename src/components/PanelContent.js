@@ -18,8 +18,8 @@ const PanelContent = () => {
         <div className="border1" />
         <div className="border2" />
         <div className="img_holder">
-          <img src="img/thumb/ste.jpg" alt="image" />
-          <div className="abs_img" data-bg-img="img/thumb/ste.jpg" />
+          <img src="img/thumb/ITCHeadshot.jpg" alt="image" />
+          <div className="abs_img" data-bg-img="img/thumb/ITCHeadshot.jpg" />
         </div>
         <div className="title_holder">
           <h5>Hi There! I am</h5>
