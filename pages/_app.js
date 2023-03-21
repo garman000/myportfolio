@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Fragment } from "react";
 import "../styles/globals.css";
 import Script from "next/script";
+import * as gtag from "../lib/ga/gtag";
 
 function MyApp({ Component, pageProps }) {
   const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
@@ -21,14 +22,32 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         ></meta>
       </Head>
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gtag.GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
+      {/* <Script id="google-analytics" strategy="afterInteractive">
         {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){window.dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', '${GA_MEASUREMENT_ID}');
   `}
-      </Script>
+      </Script> */}
+
       {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-CEVLTMQCXW"
