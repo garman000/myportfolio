@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import About from "../src/components/About";
 import Contact from "../src/components/Contact";
-import CustomerLight from "../src/components/CustomerLight";
+// import CustomerLight from "../src/components/CustomerLight";
+import TechStack from "../src/components/TechStack";
 import Home from "../src/components/Home";
 import News from "../src/components/News";
 import Portfolio from "../src/components/Portfolio";
@@ -26,7 +27,8 @@ const Index = () => {
       {/* <Services /> */}
       {/* /Services Section */}
       {/* Customers Section */}
-      <CustomerLight />
+      {/* <CustomerLight /> */}
+      <TechStack />
       {/* /Customers Section */}
       {/* News Section */}
       {/* <News /> */}
