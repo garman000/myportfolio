@@ -31,9 +31,7 @@ const Contact = () => {
       }, 2000);
     }
   };
-  useEffect(() => {
-    console.log('form data sent', form)
-  }, [])
+
   return (
     <section id="contact">
       <div className="container">

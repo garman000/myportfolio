@@ -20,6 +20,9 @@ export const portfolioSliderProps = {
     prevEl: ".prev",
   },
   breakpoints: {
+    360: {
+      slidesPerView: 1
+    },
     480: {
       slidesPerView: 2,
     },
