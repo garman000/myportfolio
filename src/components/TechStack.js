@@ -74,13 +74,26 @@ const TechStack = () => {
           {/* Partners */}
           <div className="resumo_fn_partners">
             {/* <ul> */}
-            <div className="mediaQuery">
+            {/* <div className="mediaQuery">
               {data.map((data, index) => {
                 return (
                   <a>
                     <div>
                       <div key={index}>
                         <Image src={data.importLogo} />
+                      </div>
+                    </div>
+                  </a>
+                );
+              })}
+            </div> */}
+            <div className="border-black grid grid-cols-2 md:grid-cols-4 md:gap-6 md:p-10 max-w-[100%] mx-auto">
+              {data.map((data, index) => {
+                return (
+                  <a className="mx-auto w-[10rem] md:w-full mb-3 md:mb-0">
+                    <div>
+                      <div key={index} >
+                        <Image src={data.importLogo}/>
                       </div>
                     </div>
                   </a>

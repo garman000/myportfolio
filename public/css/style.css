@@ -3138,19 +3138,4 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb {
     display: none;
   }
 }
-.mediaQuery {
-  /* border: 5px solid yellowgreen; */
-  /* overflow: hidden; */
-  /* width: 200px; */
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 3rem;
-  padding: 10px;
-}
 
-@media screen and (max-width: 480px) {
-  .mediaQuery {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto;
-  }
-}
