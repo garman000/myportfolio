@@ -73,20 +73,6 @@ const TechStack = () => {
           {/* /Main Title */}
           {/* Partners */}
           <div className="resumo_fn_partners">
-            {/* <ul> */}
-            {/* <div className="mediaQuery">
-              {data.map((data, index) => {
-                return (
-                  <a>
-                    <div>
-                      <div key={index}>
-                        <Image src={data.importLogo} />
-                      </div>
-                    </div>
-                  </a>
-                );
-              })}
-            </div> */}
             <div className="border-black grid grid-cols-2 md:grid-cols-4 md:gap-6 md:p-10 max-w-[100%] mx-auto">
               {data.map((data, index) => {
                 return (
@@ -103,17 +89,14 @@ const TechStack = () => {
             <div className="resumo_fn_main_title">
               <br></br>
 
-              {/* <h3 className="title">Happy People</h3> */}
-
               <p className="desc">
-                I believe that learning is a lifelong process, and I am
+                For me, learning is a lifelong process, and I am
                 committed to expanding my knowledge and pushing myself to new
                 heights. As such, I am excited about the prospect of taking on
                 new challenges and learning new technologies that will help me
                 to become a better developer.
               </p>
             </div>
-            {/* </ul> */}
           </div>
           {/* /Partners */}
           {/* Testimonials */}
