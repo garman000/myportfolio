@@ -39,24 +39,7 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
       />
-      {/* <Script id="google-analytics" strategy="afterInteractive">
-        {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){window.dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '${GA_MEASUREMENT_ID}');
-  `}
-      </Script> */}
 
-      {/* <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-CEVLTMQCXW"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-CEVLTMQCXW');
-        </script> */}
       <Component {...pageProps} />
     </Fragment>
   );
