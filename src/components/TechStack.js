@@ -10,7 +10,7 @@ import html from "../../public/img/techstack/html.png";
 import tailwind from "../../public/img/techstack/tailwind.png";
 import github from "../../public/img/techstack/github.png";
 
-const CustomerLight = () => {
+const TechStack = () => {
   const data = [
     {
       stack: "JavaScript",
@@ -160,4 +160,4 @@ const CustomerLight = () => {
   );
 };
 
-export default CustomerLight;
+export default TechStack;
