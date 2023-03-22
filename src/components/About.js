@@ -12,7 +12,7 @@ const About = () => {
             <h3 className="subtitle">About Me</h3>
             <h3 className="title">Biography</h3>
             <p className="desc">
-              {`As a Full-Stack Developer, my goal is to bring creative ideas to life on websites that can be enjoyed by people around the globe. Although I hail from Manchester, my passion for travel has taken me on exciting journeys, enabling me to explore diverse cultures and step out of my comfort zone. Working with new people brings me joy, as it presents fresh opportunities for growth and learning through shared experiences.`}
+              {`As a Full-Stack Developer, my goal is to bring creative ideas to life on websites that can be enjoyed by everyone. Originally from Manchester, my passion for travel has taken me on many exciting journeys, enabling me to explore diverse cultures and step out of my comfort zone. Working with new people brings me joy, as it presents fresh opportunities for growth and learning through shared experiences.`}
             </p>
           </div>
           {/* /Main Title */}
@@ -32,6 +32,10 @@ const About = () => {
                   <tr>
                     <th>Hometown</th>
                     <th>Manchester</th>
+                  </tr>
+                  <tr>
+                    <th>Favourite Sport(s)</th>
+                    <th>Football ⚽ and Tennis 🎾</th>
                   </tr>
                   <tr>
                     <th>Favourite Team</th>

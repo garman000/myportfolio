@@ -58,32 +58,12 @@ const Portfolio = () => {
                   <a href="#">TravelWise</a>
                 </h3>
               </div>
-              <div className="fn__hidden">
-                <p className="fn__cat">Travel Made Easy</p>
-                <h3 className="fn__title">TravelWise</h3>
-                <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div
-                    className="abs_img"
-                    data-bg-img="img/portfolio/travelWise.jpg"
-                  />
-                </div>
-                <p className="fn__desc">
-                  Travel Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
-                </p>
-              </div>
+              <p className="text-justify">
+                TravelWise was the brainstorm off years of adventures. Difficult
+                at times to manage and coordinate. Hence the need for an
+                intelligient travl companion. A place where all travel is made
+                easy.
+              </p>
             </SwiperSlide>
             <SwiperSlide
               className="item modal_item"
@@ -106,49 +86,18 @@ const Portfolio = () => {
                   <a href="#">PawPaw Rescue</a>
                 </h3>
               </div>
-              <div className="fn__hidden">
-                <p className="fn__cat">Pet Adoption Project</p>
-                <h3 className="fn__title">PawPaw Rescue</h3>
-                <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div
-                    className="abs_img"
-                    data-bg-img="img/portfolio/pawPaw.jpg"
-                  />
-                </div>
-                <p className="fn__desc">
-                  Pet ed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
-                </p>
-                <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
-                </p>
-              </div>
+              <p className="text-justify">
+                PawPaw was my first full stack project I created. It was part of
+                my studies at{" "}
+                <strong>
+                  <a href="https://www.itc.tech/" target="_blank">
+                    ITC Tech Challenge
+                  </a>
+                </strong>{" "}
+                and gave me a gretaer rounded understanding of the capabilities
+                of code and further gave me proof that I enjoy greatly the whole
+                process of creating websites{" "}
+              </p>
             </SwiperSlide>
 
             <SwiperSlide
@@ -172,49 +121,14 @@ const Portfolio = () => {
                   <a href="#">FaceIT</a>
                 </h3>
               </div>
-              <div className="fn__hidden">
-                <p className="fn__cat">Healhty, Lifestyle</p>
-                <h3 className="fn__title">FaceIT</h3>
-                <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div
-                    className="abs_img"
-                    data-bg-img="img/portfolio/faceIT.jpg"
-                  />
-                </div>
-                <p className="fn__desc">
-                  FaceIT Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
-                </p>
-                <p className="fn__desc">
-                  FaceIT2 Quisque dui metus, eleifend at enim ac, imperdiet
-                  sagittis dolor. Vestibulum ipsum quam, feugiat non velit sit
-                  amet, pulvinar varius nisl. Mauris tristique, ipsum sit amet
-                  lacinia congue, mauris magna tempus nibh, in mollis eros enim
-                  a tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
-                </p>
-              </div>
+              <p className="text-justify">
+                At FaceIT, my team and I developed a unique app in 24 hours. It
+                calculated future representations of users based on lifestyle
+                activities and data points. Although we placed second, our
+                product sparked debate about its market impact. Gimic or
+                gamechanger? Overall, FaceIT challenged me to think creatively
+                and work effectively under tight deadlines.
+              </p>
             </SwiperSlide>
             <SwiperSlide
               className="item modal_item"
@@ -240,19 +154,17 @@ const Portfolio = () => {
                   </a>
                 </h3>
               </div>
-              <div className="fn__hidden">
-                <p className="fn__cat">Trusted Casino Reviews</p>
-                <h3 className="fn__title">Disclosed.</h3>
-                <div className="img_holder">
-                  <Image src={disclosedDark} alt="image" />
-                  <div
-                    className="abs_img"
-                    data-bg-img="img/portfolio/disclosedDark.jpeg"
-                  />
-                </div>
-                <p className="fn__desc">disclosed</p>
-                <p className="fn__desc">disclosed</p>
-              </div>
+              <p className="text-justify">
+                My time at disclosed.com as a lead developer was a source of
+                pride for me. I oversaw the work of several other developers and
+                designers to create our product, which gave me a glimpse into
+                the world of startups. I gained valuable insight into how
+                businesses grow and evolve, placing a great importance on
+                intuitiveness and user expereince. As my first job after
+                completing my course, it provided me with an excellent
+                opportunity to hone my coding skills and increase my business
+                acumen.
+              </p>
             </SwiperSlide>
           </Swiper>
         </div>

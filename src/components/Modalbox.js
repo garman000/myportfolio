@@ -4,8 +4,8 @@ import { dataImage } from "../utilits";
 const Modalbox = ({ close, value }) => {
   const data = [
     {
-      name: "Travel Wise",
-      tag: "Travel Made Easy",
+      name: "TravelWise",
+      tag: "Intelligient Travelling",
       image: "travelWise.jpg",
       desc: [
         {

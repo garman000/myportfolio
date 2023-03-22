@@ -92,8 +92,8 @@ const TechStack = () => {
                 return (
                   <a className="mx-auto w-[10rem] md:w-full mb-3 md:mb-0">
                     <div>
-                      <div key={index} >
-                        <Image src={data.importLogo}/>
+                      <div key={index}>
+                        <Image src={data.importLogo} />
                       </div>
                     </div>
                   </a>
@@ -102,7 +102,7 @@ const TechStack = () => {
             </div>
             <div className="resumo_fn_main_title">
               <br></br>
-              <h3 className="subtitle">Tech Stack</h3>
+
               {/* <h3 className="title">Happy People</h3> */}
 
               <p className="desc">
