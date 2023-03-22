@@ -42,7 +42,7 @@ const CustomerLight = () => {
                 <ul>
           {data.map((data, index) => {
             return (
-                  <li>
+                  <li key={index}>
                     
                     <a
                       href="https://envato.com/"
