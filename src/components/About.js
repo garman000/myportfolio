@@ -56,7 +56,7 @@ const About = () => {
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
                 <a
-                  href="/StevenGarmanResume.pdf"
+                  href="/StevenGarmanResume2023.pdf"
                   download
                   style={{ cursor: "pointer" }}
                 >

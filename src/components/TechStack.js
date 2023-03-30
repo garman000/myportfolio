@@ -90,7 +90,7 @@ const TechStack = () => {
               <br></br>
 
               <p className="desc">
-                For me, learning is a lifelong process, and I am
+                For me learning is a lifelong process, and I am
                 committed to expanding my knowledge and pushing myself to new
                 heights. As such, I am excited about the prospect of taking on
                 new challenges and learning new technologies that will help me
