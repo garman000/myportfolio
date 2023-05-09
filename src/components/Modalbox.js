@@ -54,7 +54,7 @@ const Modalbox = ({ close, value }) => {
 
       desc: [
         {
-          p: "Index test  --- I created this website as a side project with the intention of transforming it into a thriving business in the future. As someone who loves to travel and explore, I've always found it challenging to maintain my fitness routine during my trips, especially when gym access is limited. To address this issue, I came up with the idea of creating myGymPassport, a platform that makes it easy and accessible for everyone to find gyms while travelling. With myGymPassport, travellers can now enjoy their trips without having to worry about missing their workout routine.",
+          p: "I created this website as a side project with the intention of transforming it into a thriving business in the future. As someone who loves to travel and explore, I've always found it challenging to maintain my fitness routine during my trips, especially when gym access is limited. To address this issue, I came up with the idea of creating myGymPassport, a platform that makes it easy and accessible for everyone to find gyms while travelling. With myGymPassport, travellers can now enjoy their trips without having to worry about missing their workout routine.",
         },
       ],
     },
@@ -89,7 +89,6 @@ const Modalbox = ({ close, value }) => {
         <div className="modal_content">
           <div className="modal_in">
             {data.map((d, i) => {
-              console.log("d data received", d);
               return (
                 i + 1 == index && (
                   <div key={i}>
