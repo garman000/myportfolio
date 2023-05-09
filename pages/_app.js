@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
         <link rel="icon" href="img/favicon.ico" />
-        <meta name="description" content="personal portfolio react template" />
+        <meta name="description" content="Steven Garman Personal Portfolio" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"

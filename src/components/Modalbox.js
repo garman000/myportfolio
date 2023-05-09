@@ -37,13 +37,24 @@ const Modalbox = ({ close, value }) => {
       ],
     },
     {
-      name: "Disclosed.com",
+      name: "disclosed.com",
       tag: "Trusted Review System",
-      image: "disclosedLight.jpeg",
+      image: "disclosedgif.gif",
 
       desc: [
         {
-          p: "During my time at Dislcosed.com, I played a key role in the development of a new startup. As part of my responsibilities, I led market research efforts and developed wireframes that served as the foundation for the company's new product. Additionally, I acted as a reference for the designer, providing guidance and direction as needed to ensure that the product's design met the highest quality standards. To further enhance the product's quality, I managed the designer and another front-end developer, collaborating closely with them to ensure a seamless and integrated product. This required working closely with the back-end developer as well, which helped me gain valuable skills and knowledge in both NextJS and Django. Overall, my time at Dislcosed.com was an invaluable experience that allowed me to deepen my understanding of web development and work closely with a team of talented professionals.",
+          p: "During my time at Dislcosed.com, I played a key role in the development of a new startup. As part of my responsibilities, I led market research efforts and developed wireframes that served as the foundation for the company's new product. Additionally, I acted as a reference for the designer, providing guidance and direction as needed to ensure that the product's design met the highest quality standards. To further enhance the product's quality, I managed the designer and another front-end developer, collaborating closely with them to ensure a seamless and integrated product. This required working closely with the back-end developer as well, which helped me gain valuable skills and knowledge in both NextJS and Django. Overall, my time at Dislcosed.com was an invaluable experience that allowed me to deepen my understanding of web development and work closely with a team of talented professionals",
+        },
+      ],
+    },
+    {
+      name: "mygympassport.com",
+      tag: "Universal Gym Passport",
+      image: "gympassgif.gif",
+
+      desc: [
+        {
+          p: "Index test  --- I created this website as a side project with the intention of transforming it into a thriving business in the future. As someone who loves to travel and explore, I've always found it challenging to maintain my fitness routine during my trips, especially when gym access is limited. To address this issue, I came up with the idea of creating myGymPassport, a platform that makes it easy and accessible for everyone to find gyms while travelling. With myGymPassport, travellers can now enjoy their trips without having to worry about missing their workout routine.",
         },
       ],
     },
@@ -83,7 +94,11 @@ const Modalbox = ({ close, value }) => {
                 i + 1 == index && (
                   <div key={i}>
                     <p className="fn__cat">{d.tag}</p>
-                    <h3 className="fn__title">{d.name}</h3>
+                    <a href={`http://${d.name}`} target="_blank">
+                      {" "}
+                      <h3 className="fn__title">{d.name}</h3>
+                    </a>
+
                     <div className="img_holder">
                       {d.video ? (
                         <video controls width="100%">

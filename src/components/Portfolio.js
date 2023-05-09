@@ -43,7 +43,7 @@ const Portfolio = () => {
                 setModal(true);
                 setModalValue(1);
               }}
-              data-index={1}
+              // data-index={0}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
@@ -71,7 +71,7 @@ const Portfolio = () => {
                 setModal(true);
                 setModalValue(3);
               }}
-              data-index={3}
+              // data-index={3}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
@@ -94,9 +94,9 @@ const Portfolio = () => {
                     ITC Tech Challenge
                   </a>
                 </strong>{" "}
-                and gave me a gretaer rounded understanding of the capabilities
+                and gave me a greater rounded understanding of the capabilities
                 of code and further gave me proof that I enjoy greatly the whole
-                process of creating websites{" "}
+                process of creating websites.{" "}
               </p>
             </SwiperSlide>
 
@@ -106,13 +106,13 @@ const Portfolio = () => {
                 setModal(true);
                 setModalValue(2);
               }}
-              data-index={2}
+              // data-index={2}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
                 <div
                   className="abs_img"
-                  data-bg-img="img/portfolio/faceIT.jpg"
+                  data-bg-img="img/portfolio/faceITgif.gif"
                 />
               </div>
               <div className="title_holder">
@@ -136,13 +136,13 @@ const Portfolio = () => {
                 setModal(true);
                 setModalValue(4);
               }}
-              data-index={3}
+              // data-index={3}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
                 <div
                   className="abs_img"
-                  data-bg-img="img/portfolio/disclosedDark.jpeg"
+                  data-bg-img="img/portfolio/disclosedgif.gif"
                 />
               </div>
 
@@ -160,10 +160,35 @@ const Portfolio = () => {
                 designers to create our product, which gave me a glimpse into
                 the world of startups. I gained valuable insight into how
                 businesses grow and evolve, placing a great importance on
-                intuitiveness and user expereince. As my first job after
-                completing my course, it provided me with an excellent
-                opportunity to hone my coding skills and increase my business
-                acumen.
+                intuitiveness and user expereince.
+              </p>
+            </SwiperSlide>
+            <SwiperSlide
+              className="item modal_item"
+              onClick={() => {
+                setModal(true);
+                setModalValue(5);
+              }}
+              // data-index={1}
+            >
+              <div className="img_holder">
+                <img src="img/thumb/square.jpg" alt="image" />
+                <div
+                  className="abs_img"
+                  data-bg-img="img/portfolio/gympassgif.gif"
+                />
+              </div>
+
+              <div className="title_holder">
+                <p>Universal Gym Passport</p>
+                <h3>
+                  <a href="http://mygympassport.com" target="_blank">
+                    mygympassport.com{" "}
+                  </a>
+                </h3>
+              </div>
+              <p className="text-justify">
+              I created myGymPassport as a side project, with plans to turn it into a thriving business. Being a keen traveller, maintaining my fitness routine during trips was a challenge, especially when gym access was limited. To solve this, I created myGymPassport - a platform that makes it easy for travellers to find gyms while on the go. Now, travellers can enjoy their trips without worrying about missing a workout.
               </p>
             </SwiperSlide>
           </Swiper>
