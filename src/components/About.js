@@ -12,7 +12,7 @@ const About = () => {
             <h3 className="subtitle">About Me</h3>
             <h3 className="title">Biography</h3>
             <p className="desc">
-              {`As a Full-Stack Developer, my goal is to bring creative ideas to life on websites that can be enjoyed by everyone. Originally from Manchester, my passion for travel has taken me on many exciting journeys, enabling me to explore diverse cultures and step out of my comfort zone. Working with new people brings me joy, as it presents fresh opportunities for growth and learning through shared experiences.`}
+              {`As a Full-Stack Developer, I breathe life into creative ideas on websites for everyone to enjoy. Hailing from Manchester, my love for travel has led me on thrilling adventures, immersing myself in diverse cultures and pushing my boundaries. Collaborating with new faces brings me joy, as it sparks growth and learning through shared experiences. Let's join forces and embark on an exciting journey of innovation and collaboration!`}
             </p>
           </div>
           {/* /Main Title */}

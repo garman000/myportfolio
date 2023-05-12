@@ -62,12 +62,8 @@ const TechStack = () => {
             <h3 className="subtitle">Tech Stack</h3>
             {/* <h3 className="title">Happy People</h3> */}
             <p className="desc">
-              As a developer, I am currently familiar with a range of
-              technologies and tools such as HTML, CSS, JavaScript, and React.
-              However, my true passion lies in constantly growing and evolving
-              as a developer. I am not afraid to step out of my comfort zone and
-              learn new programming languages or frameworks to enhance my skills
-              and stay up-to-date with the latest industry trends.
+              
+As a developer, I'm well-versed in an array of technologies and tools like HTML, CSS, JavaScript, and React. But here's the exciting part: my passion lies in perpetual growth and evolution. I fearlessly step beyond my comfort zone, embracing new programming languages and frameworks to elevate my skills and stay on the cutting edge of industry trends.
             </p>
           </div>
           {/* /Main Title */}
