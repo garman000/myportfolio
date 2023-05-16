@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 const Contact = () => {
   const [form, setForm] = useState({ email: "", name: "", title: "", msg: "" });
@@ -18,12 +18,21 @@ const Contact = () => {
         setForm({ email: "", name: "", title: "", msg: "" });
         setSuccess(false);
       }, 2000);
-      emailjs.sendForm('service_10nx6tb', 'template_mbj6dk6', e.target, 'mhYYFQEGtzOYj3Oyw')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
+      emailjs
+        .sendForm(
+          "service_10nx6tb",
+          "template_mbj6dk6",
+          e.target,
+          "mhYYFQEGtzOYj3Oyw"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
     } else {
       setError(true);
       setTimeout(() => {
@@ -155,6 +164,8 @@ const Contact = () => {
           {/* /Contact Form */}
           {/* Contact Info */}
           <div className="resumo_fn_contact_info">
+          
+
             <p>Home</p>
             <h3>Manchester</h3>
             <p>Current Location</p>

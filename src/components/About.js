@@ -6,6 +6,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="container">
+        
         <div className="roww">
           {/* Main Title */}
           <div className="resumo_fn_main_title">
@@ -56,7 +57,7 @@ const About = () => {
               {/* Download CV Button */}
               <div className="resumo_fn_cv_btn">
                 <a
-                  href="/StevenGarmanResume2023.pdf"
+                  href="/StevenGarmanCV23.pdf"
                   download
                   style={{ cursor: "pointer" }}
                 >

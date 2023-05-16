@@ -2,6 +2,7 @@ import { Fragment, useEffect, useState } from "react";
 import Image from "next/image";
 import LinkedIn from "../../public/svg/social/linkedin.svg";
 import github from "../../public/svg/social/github.svg";
+import fiverr from "../../public/svg/social/fiverr-2.svg";
 
 const Nav = ({ close, trigger }) => {
   const [toggle_, setToggle_] = useState("");
@@ -100,6 +101,20 @@ const Nav = ({ close, trigger }) => {
                       alt="github"
                       width={20}
                       height={20}
+                    />
+                  </a>
+                </li> 
+                 <li>
+                  <a
+                    href=" https://www.fiverr.com/stevengarman434"
+                    target="_blank"
+                  >
+                    <Image
+                      src={fiverr}
+                      alt="fiverr"
+                      width={20}
+                      height={20}
+                      className="text-black"
                     />
                   </a>
                 </li>

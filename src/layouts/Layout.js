@@ -23,6 +23,7 @@ const Layout = ({ children }) => {
     <Fragment>
       <Head>
         <title>Steven Garman | Personal Portfolio</title>
+        <script id='fiverr-seller-widget-script-5f9c85fa-b446-461d-b1d7-84ea2dece6f2' src='https://widgets.fiverr.com/api/v1/seller/stevengarman434?widget_id=5f9c85fa-b446-461d-b1d7-84ea2dece6f2' data-config='{"category_name":"\n                                    Programming \u0026 Tech\n\n                            "}' async='true' defer='true'></script>
       </Head>
       <div className="resumo_fn_wrapper">
         {/* MODALBOX */}
